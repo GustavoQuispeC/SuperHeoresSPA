@@ -9,6 +9,7 @@ export const HeroList = ({publisher}) => {
     <>
     <div>Listado de SuperHeroes</div>
     <hr/>
+    <br />
     <div className="row rows-cols-1 row-cols-md-3 g-3">
         {
            heroes.map(hero => (
