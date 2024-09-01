@@ -44,7 +44,7 @@ export const HeroCard = ({
               <p className="card-text">
                 <small className="text-muted">{first_appearance}</small>
               </p>
-              <Link to={`./hero/${id}`} className="btn btn-outline-primary mt-2">
+              <Link to={`/hero/${id}`} className="btn btn-outline-primary mt-2">
                 Más...
               </Link>
             </div>
@@ -56,7 +56,7 @@ export const HeroCard = ({
     );
 };
 HeroCard.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   superhero: PropTypes.string.isRequired,
   alter_ego: PropTypes.string.isRequired,
   first_appearance: PropTypes.string.isRequired,
