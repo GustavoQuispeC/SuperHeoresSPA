@@ -10,7 +10,7 @@ export const HeroCard = ({
   characters
 }) => {
   return (
-    <div className="card-group">
+    <div className="card-group animate__animated animate__fadeIn">
       <div
         className="card ms-3 shadow-lg border-0"
         style={{ maxWidth: 300, borderRadius: '10px', overflow: 'hidden' }}
